@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Aurelia</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <!--<link ref="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.2/toastr.css">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+  </head>
+
+ <body aurelia-app="main">
+    <script> window.jQuery = window.$ = require('./jspm_packages/github/components/jquery@2.2.0/jquery.min.js');</script>
+    <script src="jspm_packages/system.js"></script>
+    <script src="config.js"></script>
+    <script>
+      SystemJS.import('aurelia-bootstrapper');
+    </script>
+  </body>
+</html>
